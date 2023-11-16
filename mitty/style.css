@@ -39,7 +39,7 @@ ul li a {
     padding: 5px 10px;
     margin: 0px 10px;
     position: relative;
-    
+    font-family: 'Inconsolata', monospace;
     border-radius: 5px;
 }
 
@@ -49,8 +49,9 @@ ul li a {
 }
 
 header > h2 {
-    color: white;
+    color: gray;
     font-family: 'Source Code Pro', monospace;
+    text-shadow:1px 1px 0 #490894;
     padding: 3vh 0px 1vh 2vw;
 }
 
