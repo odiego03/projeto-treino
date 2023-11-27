@@ -41,6 +41,7 @@ ul li a {
     position: relative;
     font-family: 'Inconsolata', monospace;
     border-radius: 5px;
+    
 }
 
 .separador {
@@ -74,13 +75,45 @@ a:hover {
     width: 80vw;
     height: 60vh;
     margin: auto;
-    
+
     border-radius: 5px;
     
 }
+
+.cx2{
+    background-color: #2E2933;
+    color: aliceblue;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+    
+}
+
 .projetos{
     background-image: linear-gradient(to bottom,  #653B94, #A967F5);
     width: 100vw;
     height: 100vh;
-    padding-top: 10vh;
+    padding-top: 20vh;
+}
+
+.contato {
+    background-image: linear-gradient(to bottom, #A967F5,  #653B94,  #2E2933);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+div > h1{
+    text-align: center;
+}
+
+
+iframe {
+    padding: 50px 30px 30px 30px;
+    top: 80px;
+    left: 22px;
+    width: 20vw;
+    height: 67vh;
 }
